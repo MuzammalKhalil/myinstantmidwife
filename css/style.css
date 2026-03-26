@@ -1829,6 +1829,51 @@ body {
 
 /* --- Mobile (< 768px) --- */
 @media (max-width: 768px) {
+    .questions-cta {
+        padding: 40px 20px;
+    }
+
+    .questions-text h3 {
+        font-size: 28px;
+    }
+
+    .questions-text p {
+        font-size: 16px;
+    }
+
+    .contact-footer {
+        padding: 40px 20px;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-logo-area {
+        max-width: 100%;
+    }
+
+    .footer-logo-area p {
+        font-size: 16px;
+    }
+
+    .quick-links h4, .getintouch h4, .follow h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .quick-links ul li a, .contact-row span {
+        font-size: 16px;
+    }
+
+    .copyright {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
 
     /* Hide desktop nav, show hamburger */
     .nav-links {
