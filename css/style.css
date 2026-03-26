@@ -829,6 +829,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #292929;
 }
 
 .questions-text h3 {
@@ -868,7 +870,7 @@ body {
 .contact-footer {
     background: #111111;
     color: white;
-    padding: 60px 120px 40px;
+    padding: 60px 120px 0px;
     position: relative;
 }
 
@@ -883,7 +885,7 @@ body {
 
 /* Footer logo + description */
 .footer-logo-area {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .footer-logo-area .logo {
@@ -912,6 +914,10 @@ body {
     font-weight: 500;
     color: var(--text-light);
     margin-bottom: 30px;
+}
+
+.follow {
+    margin-top: 40px;
 }
 
 .quick-links ul {
@@ -987,7 +993,7 @@ body {
 }
 
 .social-circle:hover {
-    background: var(--primary-color);
+    background: #242421;
     color: white;
     transform: scale(1.05);
 }
