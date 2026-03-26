@@ -1600,6 +1600,20 @@ body {
 @media (max-width: 1400px) {
     .navbar {
         padding: 0 40px;
+        height: 120px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 120px;
+    }
+
+    .nav-links {
+        gap: 30px;
+    }
+
+    .homepage {
+        padding-top: 120px;
     }
 
     .hero-content {
@@ -1668,14 +1682,38 @@ body {
 
 /* --- Tablets (< 1024px) --- */
 @media (max-width: 1024px) {
+    .navbar {
+        height: 100px;
+        padding: 0 30px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 100px;
+    }
+
+    .nav-links {
+        display: none; /* Hide desktop nav on tablets as well if space is tight, or use hamburger */
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+    }
+
+    .book-now-btn {
+        display: none;
+    }
+
+    .homepage {
+        padding-top: 100px;
+    }
 
     /* Navbar stacks */
     .navbar {
         flex-wrap: wrap;
         gap: 15px;
-        position: relative;
+        position: fixed;
         background: white;
-        padding: 20px 40px;
     }
 
     .homepage {
@@ -1829,6 +1867,26 @@ body {
 
 /* --- Mobile (< 768px) --- */
 @media (max-width: 768px) {
+    .navbar {
+        height: 80px;
+        padding: 0 20px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 80px;
+    }
+
+    .homepage {
+        padding-top: 80px;
+    }
+
+    .mobile-menu-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
     .questions-cta {
         padding: 40px 20px;
     }
